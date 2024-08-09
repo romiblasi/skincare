@@ -43,6 +43,11 @@ body {
     text-align: center;
 }
 
+.logo-marca {
+    width: 100px;
+    height: auto;
+}
+
 /* Sección "Testimonios" */
 .testimonios h3 {
     font-size: 2rem;
