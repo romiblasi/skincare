@@ -108,6 +108,32 @@
     font-size: 32px;
   }
 }
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a {
+  cursor: default;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 60%;
+}
+.socialIcons a :hover {
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a i {
+  font-size: 1.5em;
+  color: black;
+  opacity: 0.9;
+  padding: 5px;
+}
+.socialIcons a i:hover {
+  color: white;
+  transition: 0.5s;
+}
+
 body {
   font-family: "Prompt";
 }/*# sourceMappingURL=main.css.map */

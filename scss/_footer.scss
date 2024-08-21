@@ -1,0 +1,25 @@
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    a {
+       cursor: default;
+       text-decoration: none;
+       padding: 10px;
+       margin: 10px;
+       border-radius: 60%;
+       :hover {
+        background-color: black;
+        transition: 0.5s;
+       }
+       i {
+        font-size: 1.5em;
+        color: black;
+        opacity: 0.9;
+        padding: 5px;
+        &:hover {
+            color: white;
+            transition: 0.5s;
+        }
+       }
+    }
+}
