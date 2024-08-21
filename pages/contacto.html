@@ -12,7 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Saira+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
     <!-- Archivo CSS -->
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
@@ -59,10 +61,10 @@
     <!-- Sección Contacto -->
     <section class="contacto mt-5">
         <div class="container">
-            <h3 class="text-center">Contáctame</h3>
+            <h3 data-aos="zoom-out-down" class="text-center">Contáctame</h3>
             <div class="row justify-content-center mt-4">
                 <div class="col-md-8 col-12">
-                    <form>
+                    <form data-aos="fade-up">
                         <div class="form-row">
                             <div class="col-md-6 mb-3">
                                 <input type="text" class="form-control" placeholder="Nombre" required>
@@ -88,7 +90,7 @@
 
 
 <!-- Footer -->
-<footer class="bg-light text-center text-lg-start mt-5 position-relative">
+<footer data-aos="fade-down" class="bg-light text-center text-lg-start mt-5 position-relative">
     <div class="container p-4">
         <div class="row">
             <div class="col-12 text-center">
@@ -107,5 +109,11 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

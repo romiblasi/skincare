@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* Personalización del Navbar */
+.navbar .mx-auto {
+  text-align: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+/* Estilo para el input de búsqueda */
+.input-group-text i {
+  color: #333; /* Color del ícono */
+}
+
+.input-group {
+  width: 250px; /* Ancho del buscador */
+}
+.input-group .form-control {
+  border-radius: 20px 0 0 20px;
+  border: 2px solid #D8BFD8; /* Color del borde */
+}
+.input-group .input-group-append .input-group-text {
+  border-radius: 0 20px 20px 0;
+  border: 2px solid #D8BFD8; /* Color del borde */
+  background-color: #f8f9fa; /* Color de fondo */
+}
+
+/* Catálogo */
+.card {
+  text-align: center;
+}
+
+.container-img {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+/* Sección "Testimonios" */
+.testimonial {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+.testimonial h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.testimonial .testimonial-content {
+  border-bottom: 1px solid #ddd;
+}
+.testimonial .testimonial-content p {
+  font-size: 1.1rem;
+  color: #555;
+}
+.testimonial .testimonial-author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+.testimonial .testimonial-author img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.testimonial .testimonial-author p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+.testimonial:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para dispositivos móviles primero */
+@media (max-width: 576px) {
+  h1, h2, h3 {
+    font-size: 24px;
+  }
+}
+/* Estilos para tabletas */
+@media (min-width: 577px) and (max-width: 768px) {
+  h1, h2, h3 {
+    font-size: 28px;
+  }
+}
+/* Estilos para PC */
+@media (min-width: 769px) {
+  h1, h2, h3 {
+    font-size: 32px;
+  }
+}
+body {
+  font-family: "Prompt";
+}
+
+/*# sourceMappingURL=main.css.map */
