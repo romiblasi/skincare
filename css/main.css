@@ -90,6 +90,16 @@
   transform: scale(1.05);
 }
 
+.btn-primary {
+  background-color: #D8BFD8;
+  border-color: #FFF;
+}
+.btn-primary:hover {
+  background-color: #FFF;
+  color: #D8BFD8;
+  border-color: #000;
+}
+
 /* Estilos para dispositivos móviles primero */
 @media (max-width: 576px) {
   h1, h2, h3 {
